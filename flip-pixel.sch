@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:flip-pixel-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
@@ -994,16 +993,6 @@ NoConn ~ 2050 4350
 NoConn ~ 2050 5150
 NoConn ~ 2050 5250
 NoConn ~ 2050 5350
-Wire Bus Line
-	950  6250 10200 6250
-Wire Bus Line
-	850  4050 850  6150
-Wire Bus Line
-	2550 4150 2550 6150
-Wire Bus Line
-	5350 3150 5350 6150
-Wire Bus Line
-	10300 3100 10300 6150
 $Comp
 L Custom-Symbols:DMN62D0U-7 Q1
 U 1 1 5F501581
@@ -1019,4 +1008,14 @@ F 7 "DMN62D0U-7" H 7650 2050 50  0001 C CNN "Manufacturer Part"
 	1    7700 1450
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	950  6250 10200 6250
+Wire Bus Line
+	850  4050 850  6150
+Wire Bus Line
+	2550 4150 2550 6150
+Wire Bus Line
+	5350 3150 5350 6150
+Wire Bus Line
+	10300 3100 10300 6150
 $EndSCHEMATC

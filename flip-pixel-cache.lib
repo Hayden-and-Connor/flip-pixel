@@ -66,7 +66,7 @@ ENDDEF
 #
 # Custom-Symbols_Diode
 #
-DEF ~Custom-Symbols_Diode D 0 0 N N 1 F N
+DEF Custom-Symbols_Diode D 0 0 N N 1 F N
 F0 "D" 0 150 50 H V C CNN
 F1 "Custom-Symbols_Diode" -450 300 50 H I C CNN
 F2 "Diode_SMD:D_SOD-123F" -100 400 50 H I C CNN
@@ -184,7 +184,7 @@ ENDDEF
 DEF Custom-Symbols_STS8DN6LF6AG Q 0 40 Y Y 2 F N
 F0 "Q" 300 50 50 H V C CNN
 F1 "Custom-Symbols_STS8DN6LF6AG" 450 -50 50 H V C CNN
-F2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" -300 500 50 H I C CNN
+F2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" -300 500 50 H I C CNN
 F3 "" 150 100 50 H I C CNN
 F4 "497-17309-1-ND" -700 350 50 H I C CNN "Digikey-Part"
 F5 "X" 300 50 50 H I C CNN "Spice_Primitive"
