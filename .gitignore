@@ -3,6 +3,8 @@
 
 Documentation/*
 
+*.log
+
 # Temporary files
 *.000
 *.bak
