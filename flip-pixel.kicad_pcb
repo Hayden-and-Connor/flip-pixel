@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 38)
+    (drawings 42)
     (tracks 943)
     (zones 0)
     (modules 177)
@@ -62,7 +62,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFE77FF)
+    (visible_elements 7FFFF7FF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -322,7 +322,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 5EF7B356)
-    (at 114.554 59.944)
+    (at 122.174 44.704)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5F501581)
@@ -6457,7 +6457,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5EEEA66B)
-    (at 98.148 58.784)
+    (at 105.768 43.544)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EE6C5B0)
@@ -6493,7 +6493,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5EEFD50E)
-    (at 98.148 61.324)
+    (at 105.768 46.084)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EE5F5A7)
@@ -6529,7 +6529,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5EEEA68D)
-    (at 108.308 58.784)
+    (at 115.928 43.544)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EE723C9)
@@ -6565,7 +6565,7 @@
   )
 
   (module Diode_SMD:D_SOD-123F (layer F.Cu) (tedit 587F7769) (tstamp 5EEEA6A6)
-    (at 103.228 54.974)
+    (at 110.848 39.734)
     (descr D_SOD-123F)
     (tags D_SOD-123F)
     (path /5EE87C0D)
@@ -6697,7 +6697,7 @@
   )
 
   (module LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B4B45C9) (tstamp 5EEEAB9B)
-    (at 93.684801 110.506001)
+    (at 106.384801 97.806001)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (path /5F2EF678)
@@ -6735,7 +6735,7 @@
   )
 
   (module LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B4B45C9) (tstamp 5EEEABAE)
-    (at 99.164801 102.506001)
+    (at 111.864801 89.806001)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (path /5F3816B1)
@@ -6877,7 +6877,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5EEEAF3E)
-    (at 108.149801 102.461001)
+    (at 120.849801 89.761001)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EEDE478)
@@ -6913,7 +6913,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5EEEAF4F)
-    (at 108.308 61.324)
+    (at 115.928 46.084)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EEE6D64)
@@ -7021,7 +7021,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5EEEB0B4)
-    (at 98.259801 110.461001)
+    (at 110.959801 97.761001)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F2F8CA9)
@@ -7057,7 +7057,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5EEEB0C5)
-    (at 103.739801 102.461001)
+    (at 116.439801 89.761001)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F3816BB)
@@ -7165,7 +7165,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23-6 (layer F.Cu) (tedit 5A02FF57) (tstamp 5EEEB22F)
-    (at 103.058 60.054)
+    (at 110.678 44.814)
     (descr "6-pin SOT-23 package")
     (tags SOT-23-6)
     (path /5EE5EB5E)
@@ -7209,6 +7209,10 @@
     )
   )
 
+  (gr_line (start 248.92 27.94) (end 248.92 154.94) (layer Edge.Cuts) (width 0.05) (tstamp 5EFA832A))
+  (gr_line (start 96.52 27.94) (end 248.92 27.94) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 96.52 154.94) (end 96.52 27.94) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 248.92 154.94) (end 96.52 154.94) (layer Edge.Cuts) (width 0.05))
   (gr_text L (at 237.998 147.32 -90) (layer F.SilkS) (tstamp 5EF8A40F)
     (effects (font (size 1 1) (thickness 0.15)))
   )
