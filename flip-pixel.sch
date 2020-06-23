@@ -638,7 +638,7 @@ U 1 1 5EEC666D
 P 1650 4350
 F 0 "U2" H 1650 5465 50  0000 C CNN
 F 1 "ESP32_DevBoard" H 1650 5374 50  0000 C CNN
-F 2 "" H 2000 5450 50  0001 C CNN
+F 2 "Custom-Footprints:DIP-38_900_ELL" H 2000 5450 50  0001 C CNN
 F 3 "http://wiki.ai-thinker.com/_media/esp32/docs/nodemcu-32s_product_specification.pdf" H 2000 5450 50  0001 C CNN
 F 4 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 1650 4450 50  0001 C CNN "ChipDatasheet"
 	1    1650 4350
@@ -774,7 +774,7 @@ U 1 1 5F1AEA64
 P 1400 1300
 F 0 "J1" H 1100 1550 50  0000 C CNN
 F 1 "Barrel-Jack" H 1400 1550 50  0000 C CNN
-F 2 "" H 1700 1550 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1700 1550 50  0001 C CNN
 F 3 "https://www.cuidevices.com/product/resource/pj-102b.pdf" H 1700 1550 50  0001 C CNN
 F 4 "Digikey" H 950 2000 50  0001 C CNN "Vendor"
 F 5 "CP-102B-ND" H 1050 1800 50  0001 C CNN "Vendor Part"
