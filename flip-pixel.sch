@@ -37,133 +37,133 @@ $EndSheet
 $Comp
 L Custom-Symbols:LM2665M6 U1
 U 1 1 5EE5EB5E
-P 3900 1200
-F 0 "U1" H 4150 750 50  0000 C CNN
-F 1 "LM2665M6" H 3850 750 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3700 1500 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/lm2665.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1592092406175" H 3700 1500 50  0001 C CNN
-F 4 "Digikey" H 3550 1600 50  0001 C CNN "Vendor"
-F 5 "LM2665M6/NOPBCT-ND" H 3550 1600 50  0001 C CNN "Vendor Part"
-F 6 "Texas Instruments" H 3550 1600 50  0001 C CNN "Manufacturer"
-F 7 "LM2665M6/NOPB" H 3550 1600 50  0001 C CNN "Manufacturer Part"
-	1    3900 1200
+P 4350 1150
+F 0 "U1" H 4600 700 50  0000 C CNN
+F 1 "LM2665M6" H 4300 700 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4150 1450 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lm2665.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1592092406175" H 4150 1450 50  0001 C CNN
+F 4 "Digikey" H 4000 1550 50  0001 C CNN "Vendor"
+F 5 "LM2665M6/NOPBCT-ND" H 4000 1550 50  0001 C CNN "Vendor Part"
+F 6 "Texas Instruments" H 4000 1550 50  0001 C CNN "Manufacturer"
+F 7 "LM2665M6/NOPB" H 4000 1550 50  0001 C CNN "Manufacturer Part"
+	1    4350 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C2
 U 1 1 5EE5F5A7
-P 3350 1350
-F 0 "C2" H 3465 1396 50  0000 L CNN
-F 1 "C" H 3465 1305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3388 1200 50  0001 C CNN
-F 3 "~" H 3350 1350 50  0001 C CNN
-	1    3350 1350
+P 3800 1300
+F 0 "C2" H 3915 1346 50  0000 L CNN
+F 1 "C" H 3915 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3838 1150 50  0001 C CNN
+F 3 "~" H 3800 1300 50  0001 C CNN
+	1    3800 1300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 1200 3550 1200
+	3800 1150 4000 1150
 Wire Wire Line
-	3100 1200 3100 1100
+	3550 1150 3550 1050
 Wire Wire Line
-	3350 1500 3550 1500
+	3800 1450 4000 1450
 $Comp
 L Device:C C1
 U 1 1 5EE6C5B0
-P 3100 1350
-F 0 "C1" H 3150 1450 50  0000 L CNN
-F 1 "C" H 3150 1250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3138 1200 50  0001 C CNN
-F 3 "~" H 3100 1350 50  0001 C CNN
-	1    3100 1350
+P 3550 1300
+F 0 "C1" H 3600 1400 50  0000 L CNN
+F 1 "C" H 3600 1200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3588 1150 50  0001 C CNN
+F 3 "~" H 3550 1300 50  0001 C CNN
+	1    3550 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 5EE6D164
-P 3100 1550
-F 0 "#PWR02" H 3100 1300 50  0001 C CNN
-F 1 "GND" H 3105 1377 50  0000 C CNN
-F 2 "" H 3100 1550 50  0001 C CNN
-F 3 "" H 3100 1550 50  0001 C CNN
-	1    3100 1550
+P 3550 1500
+F 0 "#PWR02" H 3550 1250 50  0001 C CNN
+F 1 "GND" H 3555 1327 50  0000 C CNN
+F 2 "" H 3550 1500 50  0001 C CNN
+F 3 "" H 3550 1500 50  0001 C CNN
+	1    3550 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 1500 4350 1550
+	4800 1450 4800 1500
 $Comp
 L power:GND #PWR03
 U 1 1 5EE700D1
-P 4350 1550
-F 0 "#PWR03" H 4350 1300 50  0001 C CNN
-F 1 "GND" H 4355 1377 50  0000 C CNN
-F 2 "" H 4350 1550 50  0001 C CNN
-F 3 "" H 4350 1550 50  0001 C CNN
-	1    4350 1550
+P 4800 1500
+F 0 "#PWR03" H 4800 1250 50  0001 C CNN
+F 1 "GND" H 4805 1327 50  0000 C CNN
+F 2 "" H 4800 1500 50  0001 C CNN
+F 3 "" H 4800 1500 50  0001 C CNN
+	1    4800 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 1550 3100 1500
+	3550 1500 3550 1450
 $Comp
 L Device:C C3
 U 1 1 5EE723C9
-P 4800 1300
-F 0 "C3" H 4915 1346 50  0000 L CNN
-F 1 "C" H 4915 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4838 1150 50  0001 C CNN
-F 3 "~" H 4800 1300 50  0001 C CNN
-	1    4800 1300
+P 5250 1250
+F 0 "C3" H 5365 1296 50  0000 L CNN
+F 1 "C" H 5365 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5288 1100 50  0001 C CNN
+F 3 "~" H 5250 1250 50  0001 C CNN
+	1    5250 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 1100 4450 1100
+	4700 1050 4900 1050
 Wire Wire Line
-	4800 1500 4800 1450
+	5250 1450 5250 1400
 Wire Wire Line
-	4800 1150 4800 1100
+	5250 1100 5250 1050
 $Comp
 L Custom-Symbols:Diode D1
 U 1 1 5EE87C0D
-P 3900 850
-F 0 "D1" H 3900 726 50  0000 C CNN
-F 1 "Diode" H 3450 1150 50  0001 C CNN
-F 2 "Diode_SMD:D_SOD-123F" H 3800 1250 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NHP220SF-D.PDF" H 3900 1000 50  0001 C CNN
-F 4 "ON Semiconductor" H 3800 1600 50  0001 C CNN "Manufacturer"
-F 5 "NHP220SFT3G" H 3650 1500 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 3650 1500 50  0001 C CNN "Vendor"
-F 7 "NHP220SFT3GOSCT-ND" H 3800 1600 50  0001 C CNN "Vendor Part"
-	1    3900 850 
+P 4350 800
+F 0 "D1" H 4350 676 50  0000 C CNN
+F 1 "Diode" H 3900 1100 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 4250 1200 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NHP220SF-D.PDF" H 4350 950 50  0001 C CNN
+F 4 "ON Semiconductor" H 4250 1550 50  0001 C CNN "Manufacturer"
+F 5 "NHP220SFT3G" H 4100 1450 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 4100 1450 50  0001 C CNN "Vendor"
+F 7 "NHP220SFT3GOSCT-ND" H 4250 1550 50  0001 C CNN "Vendor Part"
+	1    4350 800 
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3350 1100 3350 850 
+	3800 1050 3800 800 
 Wire Wire Line
-	3350 850  3750 850 
-Connection ~ 3350 1100
+	3800 800  4200 800 
+Connection ~ 3800 1050
 Wire Wire Line
-	3350 1100 3550 1100
+	3800 1050 4000 1050
 Wire Wire Line
-	4050 850  4450 850 
-Connection ~ 3100 1100
+	4500 800  4900 800 
+Connection ~ 3550 1050
 Wire Wire Line
-	3100 1100 3350 1100
+	3550 1050 3800 1050
 Wire Wire Line
-	2950 1100 3100 1100
+	3200 1050 3550 1050
 Wire Wire Line
-	4450 850  4450 1100
-Text Label 5550 1100 2    50   ~ 0
+	4900 800  4900 1050
+Text Label 6000 1050 2    50   ~ 0
 GateDrive
-Text Notes 3350 2000 0    50   ~ 0
+Text Notes 3800 1950 0    50   ~ 0
 Charge Pump Voltage Doubler\n
 Wire Wire Line
-	4250 1500 4350 1500
+	4700 1450 4800 1450
 Wire Wire Line
-	4250 1200 4650 1200
-Text Label 4650 1200 2    50   ~ 0
+	4700 1150 5100 1150
+Text Label 5100 1150 2    50   ~ 0
 shutdown
 Wire Wire Line
-	4450 1100 4800 1100
-Connection ~ 4450 1100
+	4900 1050 5250 1050
+Connection ~ 4900 1050
 $Comp
 L Device:R R1
 U 1 1 5EEDE478
@@ -202,19 +202,19 @@ enable
 $Comp
 L Device:R R2
 U 1 1 5EEE6D64
-P 5150 1300
-F 0 "R2" H 5220 1346 50  0000 L CNN
-F 1 "R" H 5220 1255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5080 1300 50  0001 C CNN
-F 3 "~" H 5150 1300 50  0001 C CNN
-	1    5150 1300
+P 5600 1250
+F 0 "R2" H 5670 1296 50  0000 L CNN
+F 1 "R" H 5670 1205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5530 1250 50  0001 C CNN
+F 3 "~" H 5600 1250 50  0001 C CNN
+	1    5600 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 1150 5150 1100
+	5600 1100 5600 1050
 Wire Wire Line
-	5150 1450 5150 1500
-Text Notes 5400 1350 0    50   ~ 0
+	5600 1400 5600 1450
+Text Notes 5850 1300 0    50   ~ 0
 Pull Down\nResistor
 Text Notes 8450 1450 0    50   ~ 0
 enable signal enables the high current\noperation of the pixel matrix by\ndriving the charge pump's\nshutdown pin low
@@ -620,18 +620,18 @@ Wire Wire Line
 	5800 5550 5800 6050
 Text Label 4550 6050 0    50   ~ 0
 GateDrive
-Connection ~ 4350 1500
+Connection ~ 4800 1450
 Wire Wire Line
-	4350 1500 4800 1500
-Connection ~ 4800 1100
-Connection ~ 4800 1500
+	4800 1450 5250 1450
+Connection ~ 5250 1050
+Connection ~ 5250 1450
 Wire Wire Line
-	4800 1100 5150 1100
+	5250 1050 5600 1050
 Wire Wire Line
-	4800 1500 5150 1500
-Connection ~ 5150 1100
+	5250 1450 5600 1450
+Connection ~ 5600 1050
 Wire Wire Line
-	5150 1100 5600 1100
+	5600 1050 6050 1050
 $Comp
 L Custom-Symbols:ESP32_DevBoard U2
 U 1 1 5EEC666D
@@ -771,92 +771,77 @@ enable
 $Comp
 L Custom-Symbols:Barrel-Jack J1
 U 1 1 5F1AEA64
-P 1400 1300
-F 0 "J1" H 1100 1550 50  0000 C CNN
-F 1 "Barrel-Jack" H 1400 1550 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1700 1550 50  0001 C CNN
-F 3 "https://www.cuidevices.com/product/resource/pj-102b.pdf" H 1700 1550 50  0001 C CNN
-F 4 "Digikey" H 950 2000 50  0001 C CNN "Vendor"
-F 5 "CP-102B-ND" H 1050 1800 50  0001 C CNN "Vendor Part"
-F 6 "CUI Devices" H 1050 1900 50  0001 C CNN "Manufacturer"
-F 7 "CONN PWR JACK 2.5X5.5MM SOLDER" H 1500 1700 50  0001 C CNN "Manufacturer Part"
-F 8 "CUI Inc. : SWI10-5-N-P5" H 1450 750 50  0000 L CNN "Mates With"
-	1    1400 1300
+P 1150 1150
+F 0 "J1" H 850 1400 50  0000 C CNN
+F 1 "Barrel-Jack" H 1150 1400 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1450 1400 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/pj-102b.pdf" H 1450 1400 50  0001 C CNN
+F 4 "Digikey" H 700 1850 50  0001 C CNN "Vendor"
+F 5 "CP-102B-ND" H 800 1650 50  0001 C CNN "Vendor Part"
+F 6 "CUI Devices" H 800 1750 50  0001 C CNN "Manufacturer"
+F 7 "CONN PWR JACK 2.5X5.5MM SOLDER" H 1250 1550 50  0001 C CNN "Manufacturer Part"
+F 8 "CUI Inc. : SWI10-5-N-P5" H 700 450 50  0000 L CNN "Mates With"
+	1    1150 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 1200 1800 1200
+	1450 1250 1550 1250
 Wire Wire Line
-	1800 1200 1800 1100
-$Comp
-L power:+5V #PWR036
-U 1 1 5F1CEBB7
-P 1800 1100
-F 0 "#PWR036" H 1800 950 50  0001 C CNN
-F 1 "+5V" H 1815 1273 50  0000 C CNN
-F 2 "" H 1800 1100 50  0001 C CNN
-F 3 "" H 1800 1100 50  0001 C CNN
-	1    1800 1100
-	1    0    0    -1  
-$EndComp
+	1550 1250 1550 1350
 Wire Wire Line
-	1700 1400 1800 1400
+	1450 1150 1550 1150
 Wire Wire Line
-	1800 1400 1800 1500
-Wire Wire Line
-	1700 1300 1800 1300
-Wire Wire Line
-	1800 1300 1800 1400
-Connection ~ 1800 1400
+	1550 1150 1550 1250
+Connection ~ 1550 1250
 $Comp
 L power:GND #PWR037
 U 1 1 5F1DFED8
-P 1800 1500
-F 0 "#PWR037" H 1800 1250 50  0001 C CNN
-F 1 "GND" H 1805 1327 50  0000 C CNN
-F 2 "" H 1800 1500 50  0001 C CNN
-F 3 "" H 1800 1500 50  0001 C CNN
-	1    1800 1500
+P 1550 1350
+F 0 "#PWR037" H 1550 1100 50  0001 C CNN
+F 1 "GND" H 1555 1177 50  0000 C CNN
+F 2 "" H 1550 1350 50  0001 C CNN
+F 3 "" H 1550 1350 50  0001 C CNN
+	1    1550 1350
 	1    0    0    -1  
 $EndComp
-Text Notes 950  1900 0    50   ~ 0
+Text Notes 700  1800 0    50   ~ 0
 Mates With:
-Text Notes 1450 2100 0    50   ~ 0
+Text Notes 700  2150 0    50   ~ 0
 (AC -> DC Wall Adapter)\nExpects 5V, 2A max rating
 $Comp
 L power:+5V #PWR039
 U 1 1 5F1F3984
-P 2950 1000
-F 0 "#PWR039" H 2950 850 50  0001 C CNN
-F 1 "+5V" H 2965 1173 50  0000 C CNN
-F 2 "" H 2950 1000 50  0001 C CNN
-F 3 "" H 2950 1000 50  0001 C CNN
-	1    2950 1000
+P 3200 950
+F 0 "#PWR039" H 3200 800 50  0001 C CNN
+F 1 "+5V" H 3215 1123 50  0000 C CNN
+F 2 "" H 3200 950 50  0001 C CNN
+F 3 "" H 3200 950 50  0001 C CNN
+	1    3200 950 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 1000 2950 1100
+	3200 950  3200 1050
 Wire Notes Line
-	750  650  5850 650 
+	550  550  6350 550 
 Wire Notes Line
-	5850 650  5850 2200
+	6350 550  6350 2250
 Wire Notes Line
-	5850 2200 750  2200
+	6350 2250 550  2250
 Wire Notes Line
-	750  2200 750  650 
+	550  2250 550  550 
 $Comp
 L power:+10V #PWR040
 U 1 1 5F25502C
-P 5600 1000
-F 0 "#PWR040" H 5600 850 50  0001 C CNN
-F 1 "+10V" H 5615 1173 50  0000 C CNN
-F 2 "" H 5600 1000 50  0001 C CNN
-F 3 "" H 5600 1000 50  0001 C CNN
-	1    5600 1000
+P 6050 950
+F 0 "#PWR040" H 6050 800 50  0001 C CNN
+F 1 "+10V" H 6065 1123 50  0000 C CNN
+F 2 "" H 6050 950 50  0001 C CNN
+F 3 "" H 6050 950 50  0001 C CNN
+	1    6050 950 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 1000 5600 1100
+	6050 950  6050 1050
 $Comp
 L power:+5V #PWR041
 U 1 1 5F2701FD
@@ -982,7 +967,6 @@ Wire Wire Line
 NoConn ~ 1250 3550
 NoConn ~ 1250 3650
 NoConn ~ 1250 3750
-NoConn ~ 1250 3850
 NoConn ~ 2050 3850
 NoConn ~ 2050 3950
 Text Label 2250 3550 2    50   ~ 0
@@ -1008,6 +992,153 @@ F 7 "DMN62D0U-7" H 7650 2050 50  0001 C CNN "Manufacturer Part"
 	1    7700 1450
 	1    0    0    -1  
 $EndComp
+$Comp
+L Custom-Symbols:ACS722 U3
+U 1 1 5F0155C0
+P 2100 1050
+F 0 "U3" H 1922 1096 50  0000 R CNN
+F 1 "ACS722" H 1922 1005 50  0000 R CNN
+F 2 "Custom-Footprints:SO-8_3.9x4.9mm_P1.27mm" H 1900 1350 50  0001 C CNN
+F 3 "https://www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx" H 1900 1350 50  0001 C CNN
+F 4 "Digikey" H 2100 1050 50  0001 C CNN "Vendor"
+F 5 "620-1634-2-ND" H 2100 1050 50  0001 C CNN "Vendor Part"
+F 6 "Allegro MicroSystems" H 2100 1050 50  0001 C CNN "Manufacturer"
+F 7 "ACS722LLCTR-05AB-T" H 2100 1050 50  0001 C CNN "Manufacturer Part"
+	1    2100 1050
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1750 1050 1750 1000
+Wire Wire Line
+	1750 1000 1800 1000
+Wire Wire Line
+	1800 1100 1750 1100
+Wire Wire Line
+	1750 1100 1750 1050
+Connection ~ 1750 1050
+Wire Wire Line
+	2400 1000 2450 1000
+Wire Wire Line
+	2450 1000 2450 1050
+Wire Wire Line
+	2450 1100 2400 1100
+Wire Wire Line
+	2450 1050 2950 1050
+Connection ~ 2450 1050
+Wire Wire Line
+	2450 1050 2450 1100
+Wire Wire Line
+	2950 1050 2950 950 
+Wire Wire Line
+	1450 1050 1750 1050
+$Comp
+L power:+5V #PWR0101
+U 1 1 5F1E9379
+P 2950 950
+F 0 "#PWR0101" H 2950 800 50  0001 C CNN
+F 1 "+5V" H 2965 1123 50  0000 C CNN
+F 2 "" H 2950 950 50  0001 C CNN
+F 3 "" H 2950 950 50  0001 C CNN
+	1    2950 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F1EA022
+P 2250 1850
+F 0 "#PWR0102" H 2250 1600 50  0001 C CNN
+F 1 "GND" H 2255 1677 50  0000 C CNN
+F 2 "" H 2250 1850 50  0001 C CNN
+F 3 "" H 2250 1850 50  0001 C CNN
+	1    2250 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1700 2250 1750
+Wire Wire Line
+	2150 1700 2150 1750
+Wire Wire Line
+	2150 1750 2250 1750
+Connection ~ 2250 1750
+Wire Wire Line
+	2250 1750 2250 1850
+Wire Wire Line
+	1950 1700 1950 2000
+Text Label 2850 1050 2    50   ~ 0
+power
+Text Label 1950 2000 1    50   ~ 0
+power
+Wire Wire Line
+	2050 1700 2050 2000
+Text Label 2050 2000 1    50   ~ 0
+current
+Text Label 3250 1050 0    50   ~ 0
+power
+Wire Wire Line
+	1250 3850 950  3850
+Text Label 950  3850 0    50   ~ 0
+current
+$Comp
+L Device:C C4
+U 1 1 5F3CA907
+P 3450 7100
+F 0 "C4" H 3500 7200 50  0000 L CNN
+F 1 "0.1uF" H 3500 7000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3488 6950 50  0001 C CNN
+F 3 "~" H 3450 7100 50  0001 C CNN
+	1    3450 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5F3CAA94
+P 4100 7100
+F 0 "C5" H 4215 7146 50  0000 L CNN
+F 1 "C" H 4215 7055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4138 6950 50  0001 C CNN
+F 3 "~" H 4100 7100 50  0001 C CNN
+	1    4100 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0103
+U 1 1 5F3D69F8
+P 3450 6950
+F 0 "#PWR0103" H 3450 6800 50  0001 C CNN
+F 1 "+5V" H 3465 7123 50  0000 C CNN
+F 2 "" H 3450 6950 50  0001 C CNN
+F 3 "" H 3450 6950 50  0001 C CNN
+	1    3450 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F3D7ABD
+P 3450 7250
+F 0 "#PWR0104" H 3450 7000 50  0001 C CNN
+F 1 "GND" H 3455 7077 50  0000 C CNN
+F 2 "" H 3450 7250 50  0001 C CNN
+F 3 "" H 3450 7250 50  0001 C CNN
+	1    3450 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F3E5B56
+P 4100 7250
+F 0 "#PWR0105" H 4100 7000 50  0001 C CNN
+F 1 "GND" H 4105 7077 50  0000 C CNN
+F 2 "" H 4100 7250 50  0001 C CNN
+F 3 "" H 4100 7250 50  0001 C CNN
+	1    4100 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 6950 4100 6650
+Text Label 4100 6650 3    50   ~ 0
+current
+Text Notes 3300 7650 0    50   ~ 0
+Bypass Cap\nNear U3
 Wire Bus Line
 	950  6250 10200 6250
 Wire Bus Line
@@ -1018,4 +1149,6 @@ Wire Bus Line
 	5350 3150 5350 6150
 Wire Bus Line
 	10300 3100 10300 6150
+Text Notes 3950 7650 0    50   ~ 0
+Filter Cap\nNear U3
 $EndSCHEMATC

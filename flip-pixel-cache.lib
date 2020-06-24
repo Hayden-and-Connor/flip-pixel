@@ -1,6 +1,30 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Custom-Symbols_ACS722
+#
+DEF Custom-Symbols_ACS722 U 0 40 Y Y 1 F N
+F0 "U" 250 750 50 H V C CNN
+F1 "Custom-Symbols_ACS722" 450 750 50 H V C CNN
+F2 "Custom-Footprints:SO-8_3.9x4.9mm_P1.27mm" 0 300 50 H I C CNN
+F3 "" 0 300 50 H I C CNN
+F4 "Digikey" 200 0 50 H I C CNN "Vendor"
+F5 "620-1634-2-ND" 200 0 50 H I C CNN "Vendor Part"
+F6 "Allegro MicroSystems" 200 0 50 H I C CNN "Manufacturer"
+F7 "ACS722LLCTR-05AB-T" 200 0 50 H I C CNN "Manufacturer Part"
+DRAW
+S -150 200 550 -200 1 1 0 N
+X Ip+ 1 50 300 100 D 50 50 1 1 P
+X Ip+ 2 -50 300 100 D 50 50 1 1 P
+X Ip- 3 -50 -300 100 U 50 50 1 1 P
+X Ip- 4 50 -300 100 U 50 50 1 1 P
+X GND 5 650 -150 100 L 50 50 1 1 W
+X BW_SEL 6 650 -50 100 L 50 50 1 1 I
+X VIOUT 7 650 50 100 L 50 50 1 1 O
+X VCC 8 650 150 100 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # Custom-Symbols_Barrel-Jack
 #
 DEF Custom-Symbols_Barrel-Jack J 0 40 Y Y 1 F N
