@@ -645,9 +645,9 @@ F 4 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 3750 2300 3750
+	2050 3750 2350 3750
 Wire Wire Line
-	2050 3650 2300 3650
+	2050 3650 2350 3650
 Wire Wire Line
 	2050 4050 2450 4050
 Wire Wire Line
@@ -662,24 +662,24 @@ Wire Wire Line
 	2050 4750 2450 4750
 Wire Wire Line
 	2050 4850 2450 4850
-Text Label 2300 3650 2    50   ~ 0
-Col1H
-Text Label 2300 3750 2    50   ~ 0
-Col1L
-Text Label 2300 4050 2    50   ~ 0
-Col2H
-Text Label 2300 4250 2    50   ~ 0
-Col2L
-Text Label 2300 4450 2    50   ~ 0
-Col3H
-Text Label 2300 4550 2    50   ~ 0
-Col3L
-Text Label 2300 4650 2    50   ~ 0
-Col4H
-Text Label 2300 4750 2    50   ~ 0
-Col4L
-Text Label 2300 4850 2    50   ~ 0
-Col5H
+Text Label 2350 3650 2    50   ~ 0
+Row1L
+Text Label 2350 3750 2    50   ~ 0
+Row1H
+Text Label 2350 4050 2    50   ~ 0
+Row2L
+Text Label 2350 4250 2    50   ~ 0
+Row2H
+Text Label 2350 4450 2    50   ~ 0
+Row3L
+Text Label 2350 4550 2    50   ~ 0
+Row3H
+Text Label 2350 4750 2    50   ~ 0
+Row4H
+Text Label 2350 4650 2    50   ~ 0
+Row4L
+Text Label 2350 4850 2    50   ~ 0
+Row5L
 Wire Wire Line
 	1250 3950 950  3950
 Wire Wire Line
@@ -702,28 +702,28 @@ Wire Wire Line
 	1250 4950 950  4950
 Wire Wire Line
 	2050 4950 2450 4950
-Text Label 2300 4950 2    50   ~ 0
-Col5L
-Text Label 950  3950 0    50   ~ 0
-Row1H
-Text Label 950  4050 0    50   ~ 0
-Row1L
-Text Label 950  4150 0    50   ~ 0
-Row2H
-Text Label 950  4250 0    50   ~ 0
-Row2L
-Text Label 950  4350 0    50   ~ 0
-Row3H
-Text Label 950  4450 0    50   ~ 0
-Row3L
-Text Label 950  4550 0    50   ~ 0
-Row4H
-Text Label 950  4650 0    50   ~ 0
-Row4L
-Text Label 950  4750 0    50   ~ 0
+Text Label 2350 4950 2    50   ~ 0
 Row5H
+Text Label 950  3950 0    50   ~ 0
+Col5H
+Text Label 950  4050 0    50   ~ 0
+Col5L
+Text Label 950  4150 0    50   ~ 0
+Col4H
+Text Label 950  4250 0    50   ~ 0
+Col4L
+Text Label 950  4350 0    50   ~ 0
+Col3H
+Text Label 950  4450 0    50   ~ 0
+Col3L
+Text Label 950  4550 0    50   ~ 0
+Col2H
+Text Label 950  4650 0    50   ~ 0
+Col2L
+Text Label 950  4750 0    50   ~ 0
+Col1H
 Text Label 950  4950 0    50   ~ 0
-Row5L
+Col1L
 Entry Wire Line
 	2450 4050 2550 4150
 Entry Wire Line
@@ -771,37 +771,30 @@ enable
 $Comp
 L Custom-Symbols:Barrel-Jack J1
 U 1 1 5F1AEA64
-P 1150 1150
-F 0 "J1" H 850 1400 50  0000 C CNN
-F 1 "Barrel-Jack" H 1150 1400 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1450 1400 50  0001 C CNN
-F 3 "https://www.cuidevices.com/product/resource/pj-102b.pdf" H 1450 1400 50  0001 C CNN
-F 4 "Digikey" H 700 1850 50  0001 C CNN "Vendor"
-F 5 "CP-102B-ND" H 800 1650 50  0001 C CNN "Vendor Part"
-F 6 "CUI Devices" H 800 1750 50  0001 C CNN "Manufacturer"
-F 7 "CONN PWR JACK 2.5X5.5MM SOLDER" H 1250 1550 50  0001 C CNN "Manufacturer Part"
+P 900 1150
+F 0 "J1" H 700 1400 50  0000 C CNN
+F 1 "Barrel-Jack" H 1000 1400 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1200 1400 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/pj-102b.pdf" H 1200 1400 50  0001 C CNN
+F 4 "Digikey" H 450 1850 50  0001 C CNN "Vendor"
+F 5 "CP-102B-ND" H 550 1650 50  0001 C CNN "Vendor Part"
+F 6 "CUI Devices" H 550 1750 50  0001 C CNN "Manufacturer"
+F 7 "CONN PWR JACK 2.5X5.5MM SOLDER" H 1000 1550 50  0001 C CNN "Manufacturer Part"
 F 8 "CUI Inc. : SWI10-5-N-P5" H 700 450 50  0000 L CNN "Mates With"
-	1    1150 1150
+	1    900  1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 1250 1550 1250
-Wire Wire Line
-	1550 1250 1550 1350
-Wire Wire Line
-	1450 1150 1550 1150
-Wire Wire Line
-	1550 1150 1550 1250
-Connection ~ 1550 1250
+	1200 1150 1300 1150
 $Comp
 L power:GND #PWR037
 U 1 1 5F1DFED8
-P 1550 1350
-F 0 "#PWR037" H 1550 1100 50  0001 C CNN
-F 1 "GND" H 1555 1177 50  0000 C CNN
-F 2 "" H 1550 1350 50  0001 C CNN
-F 3 "" H 1550 1350 50  0001 C CNN
-	1    1550 1350
+P 1300 1350
+F 0 "#PWR037" H 1300 1100 50  0001 C CNN
+F 1 "GND" H 1305 1177 50  0000 C CNN
+F 2 "" H 1300 1350 50  0001 C CNN
+F 3 "" H 1300 1350 50  0001 C CNN
+	1    1300 1350
 	1    0    0    -1  
 $EndComp
 Text Notes 700  1800 0    50   ~ 0
@@ -957,8 +950,8 @@ Wire Wire Line
 Wire Wire Line
 	2000 7050 2000 7150
 Wire Wire Line
-	2050 4150 2300 4150
-Text Label 2300 4150 2    50   ~ 0
+	2050 4150 2350 4150
+Text Label 2350 4150 2    50   ~ 0
 GND
 Text Label 1050 4850 0    50   ~ 0
 GND
@@ -1030,7 +1023,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 1050 2950 950 
 Wire Wire Line
-	1450 1050 1750 1050
+	1200 1050 1750 1050
 $Comp
 L power:+5V #PWR0101
 U 1 1 5F1E9379
@@ -1139,6 +1132,14 @@ Text Label 4100 6650 3    50   ~ 0
 current
 Text Notes 3300 7650 0    50   ~ 0
 Bypass Cap\nNear U3
+Text Notes 3950 7650 0    50   ~ 0
+Filter Cap\nNear U3
+Text Label 1700 1050 2    50   ~ 0
+Power_Input
+Wire Wire Line
+	1300 1150 1300 1250
+Wire Wire Line
+	1200 1250 1300 1250
 Wire Bus Line
 	950  6250 10200 6250
 Wire Bus Line
@@ -1149,6 +1150,7 @@ Wire Bus Line
 	5350 3150 5350 6150
 Wire Bus Line
 	10300 3100 10300 6150
-Text Notes 3950 7650 0    50   ~ 0
-Filter Cap\nNear U3
+Connection ~ 1300 1250
+Wire Wire Line
+	1300 1250 1300 1350
 $EndSCHEMATC
