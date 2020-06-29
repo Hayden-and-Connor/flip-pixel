@@ -5,6 +5,9 @@ Documentation/*
 
 *.log
 
+# Library Caches
+*-cache.lib
+
 # Temporary files
 *.000
 *.bak
