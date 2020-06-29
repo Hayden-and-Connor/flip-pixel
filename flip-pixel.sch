@@ -1014,17 +1014,6 @@ F 3 "~" H 4100 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0103
-U 1 1 5F3D69F8
-P 3450 6950
-F 0 "#PWR0103" H 3450 6800 50  0001 C CNN
-F 1 "+5V" H 3465 7123 50  0000 C CNN
-F 2 "" H 3450 6950 50  0001 C CNN
-F 3 "" H 3450 6950 50  0001 C CNN
-	1    3450 6950
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0104
 U 1 1 5F3D7ABD
 P 3450 7250
@@ -1064,11 +1053,11 @@ Connection ~ 1450 1250
 Wire Wire Line
 	1450 1250 1450 1350
 $Comp
-L Custom-Symbols:INA250A3 U?
+L Custom-Symbols:INA250A3 U3
 U 1 1 5EFC5725
 P 2750 1400
-F 0 "U?" H 2750 2015 50  0000 C CNN
-F 1 "INA250A3" H 2750 1924 50  0000 C CNN
+F 0 "U3" H 2950 850 50  0000 C CNN
+F 1 "INA250A3" H 2700 850 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 2750 1950 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/ina250.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1593450644945" H 2750 1950 50  0001 C CNN
 F 4 "Digikey" H 2750 1950 50  0001 C CNN "Vendor"
@@ -1101,9 +1090,9 @@ Connection ~ 3200 1150
 Wire Wire Line
 	3200 1150 3200 1050
 Wire Wire Line
-	3200 1050 3600 1050
+	3200 1050 3300 1050
 Wire Wire Line
-	2300 1050 2000 1050
+	2300 1050 2150 1050
 Connection ~ 2300 1050
 Connection ~ 3200 1050
 Wire Wire Line
@@ -1133,10 +1122,10 @@ Connection ~ 3200 1750
 Wire Wire Line
 	3200 1750 3200 1850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5F07F3E9
 P 3200 1850
-F 0 "#PWR?" H 3200 1600 50  0001 C CNN
+F 0 "#PWR0101" H 3200 1600 50  0001 C CNN
 F 1 "GND" H 3205 1677 50  0000 C CNN
 F 2 "" H 3200 1850 50  0001 C CNN
 F 3 "" H 3200 1850 50  0001 C CNN
@@ -1161,10 +1150,10 @@ GND
 Wire Wire Line
 	1200 1050 2000 1050
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0102
 U 1 1 5F1D9519
 P 3600 950
-F 0 "#PWR?" H 3600 800 50  0001 C CNN
+F 0 "#PWR0102" H 3600 800 50  0001 C CNN
 F 1 "+5V" H 3615 1123 50  0000 C CNN
 F 2 "" H 3600 950 50  0001 C CNN
 F 3 "" H 3600 950 50  0001 C CNN
@@ -1175,6 +1164,35 @@ Wire Wire Line
 	3600 1050 3600 950 
 Text Label 3550 1050 2    50   ~ 0
 power
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 5F24397A
+P 2750 850
+F 0 "JP1" H 2450 950 50  0000 C CNN
+F 1 "BypassJumper" H 2850 950 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2750 850 50  0001 C CNN
+F 3 "~" H 2750 850 50  0001 C CNN
+	1    2750 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 1050 2150 850 
+Wire Wire Line
+	2150 850  2600 850 
+Connection ~ 2150 1050
+Wire Wire Line
+	2150 1050 2000 1050
+Wire Wire Line
+	2900 850  3300 850 
+Wire Wire Line
+	3300 850  3300 1050
+Connection ~ 3300 1050
+Wire Wire Line
+	3300 1050 3600 1050
+Wire Wire Line
+	3450 6950 3450 6450
+Text Label 3450 6450 3    50   ~ 0
+Power_Input
 Wire Bus Line
 	950  6250 10200 6250
 Wire Bus Line

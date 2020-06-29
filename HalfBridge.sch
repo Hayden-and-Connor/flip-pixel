@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 7 12
+Sheet 12 12
 Title "Flip Pixel Board"
 Date "2020-06-20"
 Rev ""
@@ -54,7 +54,7 @@ AR Path="/5EEA5F9D/5EE98773" Ref="R15"  Part="1"
 AR Path="/5EEA5FA4/5EE98773" Ref="R17"  Part="1" 
 AR Path="/5EEA5FAB/5EE98773" Ref="R19"  Part="1" 
 AR Path="/5EEA5FB2/5EE98773" Ref="R21"  Part="1" 
-F 0 "R11" H 4000 2850 50  0000 R CNN
+F 0 "R21" H 4000 2850 50  0000 R CNN
 F 1 "R" H 3950 2750 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3730 2800 50  0001 C CNN
 F 3 "~" H 3800 2800 50  0001 C CNN
@@ -102,7 +102,7 @@ AR Path="/5EEA5F9D/5EE9878C" Ref="R16"  Part="1"
 AR Path="/5EEA5FA4/5EE9878C" Ref="R18"  Part="1" 
 AR Path="/5EEA5FAB/5EE9878C" Ref="R20"  Part="1" 
 AR Path="/5EEA5FB2/5EE9878C" Ref="R22"  Part="1" 
-F 0 "R12" H 4000 4250 50  0000 R CNN
+F 0 "R22" H 4000 4250 50  0000 R CNN
 F 1 "R" H 3950 4150 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3730 4200 50  0001 C CNN
 F 3 "~" H 3800 4200 50  0001 C CNN
@@ -128,15 +128,18 @@ AR Path="/5EEA5F9D/5EE9879E" Ref="Q22"  Part="1"
 AR Path="/5EEA5FA4/5EE9879E" Ref="Q25"  Part="1" 
 AR Path="/5EEA5FAB/5EE9879E" Ref="Q28"  Part="1" 
 AR Path="/5EEA5FB2/5EE9879E" Ref="Q31"  Part="1" 
-F 0 "Q16" H 4744 3046 50  0000 L CNN
+F 0 "Q31" H 4744 3046 50  0000 L CNN
 F 1 "STS8DN6LF6AG" H 4744 2955 50  0000 L CNN
 F 2 "Custom-Footprints:SO-8_3.9x4.9mm_P1.27mm" H 4250 3500 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/389/sts8dn6lf6ag-1114209.pdf" H 4550 100 50  0000 C CNN
-F 4 "497-17309-1-ND" H 3850 3350 50  0001 C CNN "Digikey-Part"
-F 5 "X" H 4850 3050 50  0001 C CNN "Spice_Primitive"
-F 6 "STS8DN6LF6AG_Package" H 3800 3750 50  0001 C CNN "Spice_Model"
-F 7 "Y" H 4850 3050 50  0001 C CNN "Spice_Netlist_Enabled"
-F 8 "C:\\Users\\winiarcc\\Desktop\\KiCad-Libraries\\SPICE_models\\sts8dn6lf6ag_spice\\Package.LIB" H 5350 3600 50  0001 C CNN "Spice_Lib_File"
+F 4 "X" H 4850 3050 50  0001 C CNN "Spice_Primitive"
+F 5 "STS8DN6LF6AG_Package" H 3800 3750 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4850 3050 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "C:\\Users\\winiarcc\\Desktop\\KiCad-Libraries\\SPICE_models\\sts8dn6lf6ag_spice\\Package.LIB" H 5350 3600 50  0001 C CNN "Spice_Lib_File"
+F 8 "STMicroelectronics" H 0   0   50  0001 C CNN "Manufacturer"
+F 9 "STS8DN6LF6AG" H 0   0   50  0001 C CNN "Manufacturer Part"
+F 10 "Digikey" H 0   0   50  0001 C CNN "Vendor"
+F 11 "497-17309-1-ND" H 0   0   50  0001 C CNN "Vendor Part"
 	1    4550 3000
 	1    0    0    -1  
 $EndComp
@@ -157,15 +160,18 @@ AR Path="/5EEA5F9D/5EE987A9" Ref="Q22"  Part="2"
 AR Path="/5EEA5FA4/5EE987A9" Ref="Q25"  Part="2" 
 AR Path="/5EEA5FAB/5EE987A9" Ref="Q28"  Part="2" 
 AR Path="/5EEA5FB2/5EE987A9" Ref="Q31"  Part="2" 
-F 0 "Q16" H 4744 4446 50  0000 L CNN
+F 0 "Q31" H 4744 4446 50  0000 L CNN
 F 1 "STS8DN6LF6AG" H 4744 4355 50  0000 L CNN
 F 2 "Custom-Footprints:SO-8_3.9x4.9mm_P1.27mm" H 4250 4900 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/389/sts8dn6lf6ag-1114209.pdf" H 4700 4500 50  0001 C CNN
-F 4 "497-17309-1-ND" H 3850 4750 50  0001 C CNN "Digikey-Part"
-F 5 "X" H 4850 4450 50  0001 C CNN "Spice_Primitive"
-F 6 "STS8DN6LF6AG_Package" H 3800 5150 50  0001 C CNN "Spice_Model"
-F 7 "Y" H 4850 4450 50  0001 C CNN "Spice_Netlist_Enabled"
-F 8 "C:\\Users\\winiarcc\\Desktop\\KiCad-Libraries\\SPICE_models\\sts8dn6lf6ag_spice\\Package.LIB" H 5350 5000 50  0001 C CNN "Spice_Lib_File"
+F 4 "X" H 4850 4450 50  0001 C CNN "Spice_Primitive"
+F 5 "STS8DN6LF6AG_Package" H 3800 5150 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4850 4450 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "C:\\Users\\winiarcc\\Desktop\\KiCad-Libraries\\SPICE_models\\sts8dn6lf6ag_spice\\Package.LIB" H 5350 5000 50  0001 C CNN "Spice_Lib_File"
+F 8 "STMicroelectronics" H 0   0   50  0001 C CNN "Manufacturer"
+F 9 "STS8DN6LF6AG" H 0   0   50  0001 C CNN "Manufacturer Part"
+F 10 "Digikey" H 0   0   50  0001 C CNN "Vendor"
+F 11 "497-17309-1-ND" H 0   0   50  0001 C CNN "Vendor Part"
 	2    4550 4400
 	1    0    0    -1  
 $EndComp
@@ -295,7 +301,7 @@ AR Path="/5EEA22DC/5F3B0E6C" Ref="D62"  Part="1"
 AR Path="/5EEA5F96/5F3B0E6C" Ref="D64"  Part="1" 
 AR Path="/5EEA5FA4/5F3B0E6C" Ref="D68"  Part="1" 
 AR Path="/5EEA5FB2/5F3B0E6C" Ref="D72"  Part="1" 
-F 0 "D62" V 7450 3100 50  0000 R CNN
+F 0 "D72" V 7450 3100 50  0000 R CNN
 F 1 "LED_Green" H 7550 3350 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7750 3650 50  0001 C CNN
 F 3 "https://vcclite.com/wp-content/uploads/wpallimport/files/files/CMD1721Seriesver3.pdf" H 7550 3350 50  0001 C CNN
@@ -321,7 +327,7 @@ AR Path="/5EEA22DC/5F3B0E72" Ref="R33"  Part="1"
 AR Path="/5EEA5F96/5F3B0E72" Ref="R35"  Part="1" 
 AR Path="/5EEA5FA4/5F3B0E72" Ref="R39"  Part="1" 
 AR Path="/5EEA5FB2/5F3B0E72" Ref="R43"  Part="1" 
-F 0 "R33" H 7470 3646 50  0000 L CNN
+F 0 "R43" H 7470 3646 50  0000 L CNN
 F 1 "R" H 7470 3555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7330 3600 50  0001 C CNN
 F 3 "~" H 7400 3600 50  0001 C CNN
@@ -367,7 +373,7 @@ AR Path="/5EEA22DC/5F3B0E85" Ref="D63"  Part="1"
 AR Path="/5EEA5F96/5F3B0E85" Ref="D65"  Part="1" 
 AR Path="/5EEA5FA4/5F3B0E85" Ref="D69"  Part="1" 
 AR Path="/5EEA5FB2/5F3B0E85" Ref="D73"  Part="1" 
-F 0 "D63" V 7900 3100 50  0000 R CNN
+F 0 "D73" V 7900 3100 50  0000 R CNN
 F 1 "LED_Green" H 8000 3350 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8200 3650 50  0001 C CNN
 F 3 "https://vcclite.com/wp-content/uploads/wpallimport/files/files/CMD1721Seriesver3.pdf" H 8000 3350 50  0001 C CNN
@@ -393,7 +399,7 @@ AR Path="/5EEA22DC/5F3B0E8B" Ref="R34"  Part="1"
 AR Path="/5EEA5F96/5F3B0E8B" Ref="R36"  Part="1" 
 AR Path="/5EEA5FA4/5F3B0E8B" Ref="R40"  Part="1" 
 AR Path="/5EEA5FB2/5F3B0E8B" Ref="R44"  Part="1" 
-F 0 "R34" H 7920 3646 50  0000 L CNN
+F 0 "R44" H 7920 3646 50  0000 L CNN
 F 1 "R" H 7920 3555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7780 3600 50  0001 C CNN
 F 3 "~" H 7850 3600 50  0001 C CNN
@@ -449,7 +455,7 @@ AR Path="/5EEA5F96/5F506CAB" Ref="Q17"  Part="1"
 AR Path="/5EEA5FA4/5F506CAB" Ref="Q23"  Part="1" 
 AR Path="/5EEA5FAB/5F506CAB" Ref="Q26"  Part="1" 
 AR Path="/5EEA5FB2/5F506CAB" Ref="Q29"  Part="1" 
-F 0 "Q14" H 3906 3296 50  0000 L CNN
+F 0 "Q29" H 3906 3296 50  0000 L CNN
 F 1 "DMN62D0U-7" H 3906 3205 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3450 3950 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/DMN62D0U.pdf" H 3450 3950 50  0001 C CNN
@@ -475,7 +481,7 @@ AR Path="/5EEA5F96/5F506FFC" Ref="Q18"  Part="1"
 AR Path="/5EEA5FA4/5F506FFC" Ref="Q24"  Part="1" 
 AR Path="/5EEA5FAB/5F506FFC" Ref="Q27"  Part="1" 
 AR Path="/5EEA5FB2/5F506FFC" Ref="Q30"  Part="1" 
-F 0 "Q15" H 3906 4696 50  0000 L CNN
+F 0 "Q30" H 3906 4696 50  0000 L CNN
 F 1 "DMN62D0U-7" H 3906 4605 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3450 5350 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/DMN62D0U.pdf" H 3450 5350 50  0001 C CNN
