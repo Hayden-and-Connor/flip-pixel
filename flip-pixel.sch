@@ -1203,4 +1203,15 @@ Wire Bus Line
 	5350 3150 5350 6150
 Wire Bus Line
 	10300 3100 10300 6150
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO1
+U 1 1 5F2FC01C
+P 5350 7200
+F 0 "LOGO1" H 5597 7225 50  0000 L CNN
+F 1 "Logo_Open_Hardware_Small" H 5350 6975 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_9.8x8mm_SilkScreen" H 5350 7200 50  0001 C CNN
+F 3 "~" H 5350 7200 50  0001 C CNN
+	1    5350 7200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
