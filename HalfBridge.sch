@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR?
+L flip-pixel-rescue:GND-power #PWR?
 U 1 1 5EE9876D
 P 3800 3450
 AR Path="/5EE9876D" Ref="#PWR?"  Part="1" 
@@ -38,7 +38,7 @@ F 3 "" H 3800 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L flip-pixel-rescue:R-Device R?
 U 1 1 5EE98773
 P 3800 2800
 AR Path="/5EE98773" Ref="R?"  Part="1" 
@@ -62,7 +62,7 @@ F 3 "~" H 3800 2800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L flip-pixel-rescue:GND-power #PWR?
 U 1 1 5EE98786
 P 3800 4850
 AR Path="/5EE98786" Ref="#PWR?"  Part="1" 
@@ -86,7 +86,7 @@ F 3 "" H 3800 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L flip-pixel-rescue:R-Device R?
 U 1 1 5EE9878C
 P 3800 4200
 AR Path="/5EE9878C" Ref="R?"  Part="1" 
@@ -178,7 +178,7 @@ $EndComp
 Wire Wire Line
 	4600 4200 4600 4100
 $Comp
-L power:GND #PWR?
+L flip-pixel-rescue:GND-power #PWR?
 U 1 1 5EE987B3
 P 4600 4600
 AR Path="/5EE987B3" Ref="#PWR?"  Part="1" 
@@ -260,7 +260,7 @@ Connection ~ 3800 4400
 Wire Wire Line
 	3800 4400 3800 4450
 $Comp
-L power:+5V #PWR060
+L flip-pixel-rescue:+5V-power #PWR060
 U 1 1 5F3ABF0C
 P 4600 2600
 AR Path="/5EEA5F9D/5F3ABF0C" Ref="#PWR060"  Part="1" 
@@ -313,7 +313,7 @@ F 7 "CMD17-21VGC/TR8" H 6950 3750 50  0001 C CNN "Manufacturer Part"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L flip-pixel-rescue:R-Device R?
 U 1 1 5F3B0E72
 P 7400 3600
 AR Path="/5F3B0E72" Ref="R?"  Part="1" 
@@ -335,7 +335,7 @@ F 3 "~" H 7400 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L flip-pixel-rescue:GND-power #PWR?
 U 1 1 5F3B0E78
 P 7400 3750
 AR Path="/5F3B0E78" Ref="#PWR?"  Part="1" 
@@ -385,7 +385,7 @@ F 7 "CMD17-21VGC/TR8" H 7400 3750 50  0001 C CNN "Manufacturer Part"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L flip-pixel-rescue:R-Device R?
 U 1 1 5F3B0E8B
 P 7850 3600
 AR Path="/5F3B0E8B" Ref="R?"  Part="1" 
@@ -407,7 +407,7 @@ F 3 "~" H 7850 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L flip-pixel-rescue:GND-power #PWR?
 U 1 1 5F3B0E91
 P 7850 3750
 AR Path="/5F3B0E91" Ref="#PWR?"  Part="1" 

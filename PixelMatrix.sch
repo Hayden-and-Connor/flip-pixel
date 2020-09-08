@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 2 12
+Sheet 2 2
 Title "Flip Pixel Board"
 Date "2020-06-20"
 Rev ""
@@ -61,7 +61,7 @@ Connection ~ 6150 6100
 Wire Wire Line
 	6000 6100 6150 6100
 $Comp
-L Personal-Symbols:FlipPixel Px20
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px20
 U 1 1 5F83747C
 P 5850 6100
 F 0 "Px20" H 5850 6355 50  0000 C CNN
@@ -85,7 +85,7 @@ Connection ~ 5300 6100
 Wire Wire Line
 	5150 6100 5300 6100
 $Comp
-L Personal-Symbols:FlipPixel Px15
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px15
 U 1 1 5F837489
 P 5000 6100
 F 0 "Px15" H 5000 6355 50  0000 C CNN
@@ -103,7 +103,7 @@ Connection ~ 4450 6100
 Wire Wire Line
 	4300 6100 4450 6100
 $Comp
-L Personal-Symbols:FlipPixel Px10
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px10
 U 1 1 5F837493
 P 4150 6100
 F 0 "Px10" H 4150 6355 50  0000 C CNN
@@ -121,7 +121,7 @@ Connection ~ 3600 6100
 Wire Wire Line
 	3450 6100 3600 6100
 $Comp
-L Personal-Symbols:FlipPixel Px5
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px5
 U 1 1 5F83749D
 P 3300 6100
 F 0 "Px5" H 3300 6355 50  0000 C CNN
@@ -281,7 +281,7 @@ Connection ~ 7000 6100
 Wire Wire Line
 	6850 6100 7000 6100
 $Comp
-L Personal-Symbols:FlipPixel Px25
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px25
 U 1 1 5F8374FA
 P 6700 6100
 F 0 "Px25" H 6700 6355 50  0000 C CNN
@@ -373,7 +373,7 @@ Connection ~ 6150 5100
 Wire Wire Line
 	6000 5100 6150 5100
 $Comp
-L Personal-Symbols:FlipPixel Px19
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px19
 U 1 1 5F83752F
 P 5850 5100
 F 0 "Px19" H 5850 5355 50  0000 C CNN
@@ -397,7 +397,7 @@ Connection ~ 5300 5100
 Wire Wire Line
 	5150 5100 5300 5100
 $Comp
-L Personal-Symbols:FlipPixel Px14
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px14
 U 1 1 5F83753C
 P 5000 5100
 F 0 "Px14" H 5000 5355 50  0000 C CNN
@@ -415,7 +415,7 @@ Connection ~ 4450 5100
 Wire Wire Line
 	4300 5100 4450 5100
 $Comp
-L Personal-Symbols:FlipPixel Px9
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px9
 U 1 1 5F837546
 P 4150 5100
 F 0 "Px9" H 4150 5355 50  0000 C CNN
@@ -433,7 +433,7 @@ Connection ~ 3600 5100
 Wire Wire Line
 	3450 5100 3600 5100
 $Comp
-L Personal-Symbols:FlipPixel Px4
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px4
 U 1 1 5F837550
 P 3300 5100
 F 0 "Px4" H 3300 5355 50  0000 C CNN
@@ -593,7 +593,7 @@ Connection ~ 7000 5100
 Wire Wire Line
 	6850 5100 7000 5100
 $Comp
-L Personal-Symbols:FlipPixel Px24
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px24
 U 1 1 5F8375AD
 P 6700 5100
 F 0 "Px24" H 6700 5355 50  0000 C CNN
@@ -685,7 +685,7 @@ Connection ~ 6150 4100
 Wire Wire Line
 	6000 4100 6150 4100
 $Comp
-L Personal-Symbols:FlipPixel Px18
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px18
 U 1 1 5F8375E2
 P 5850 4100
 F 0 "Px18" H 5850 4355 50  0000 C CNN
@@ -709,7 +709,7 @@ Connection ~ 5300 4100
 Wire Wire Line
 	5150 4100 5300 4100
 $Comp
-L Personal-Symbols:FlipPixel Px13
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px13
 U 1 1 5F8375EF
 P 5000 4100
 F 0 "Px13" H 5000 4355 50  0000 C CNN
@@ -727,7 +727,7 @@ Connection ~ 4450 4100
 Wire Wire Line
 	4300 4100 4450 4100
 $Comp
-L Personal-Symbols:FlipPixel Px8
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px8
 U 1 1 5F8375F9
 P 4150 4100
 F 0 "Px8" H 4150 4355 50  0000 C CNN
@@ -745,7 +745,7 @@ Connection ~ 3600 4100
 Wire Wire Line
 	3450 4100 3600 4100
 $Comp
-L Personal-Symbols:FlipPixel Px3
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px3
 U 1 1 5F837603
 P 3300 4100
 F 0 "Px3" H 3300 4355 50  0000 C CNN
@@ -905,7 +905,7 @@ Connection ~ 7000 4100
 Wire Wire Line
 	6850 4100 7000 4100
 $Comp
-L Personal-Symbols:FlipPixel Px23
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px23
 U 1 1 5F837660
 P 6700 4100
 F 0 "Px23" H 6700 4355 50  0000 C CNN
@@ -997,7 +997,7 @@ Connection ~ 6150 3100
 Wire Wire Line
 	6000 3100 6150 3100
 $Comp
-L Personal-Symbols:FlipPixel Px17
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px17
 U 1 1 5F837695
 P 5850 3100
 F 0 "Px17" H 5850 3355 50  0000 C CNN
@@ -1021,7 +1021,7 @@ Connection ~ 5300 3100
 Wire Wire Line
 	5150 3100 5300 3100
 $Comp
-L Personal-Symbols:FlipPixel Px12
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px12
 U 1 1 5F8376A2
 P 5000 3100
 F 0 "Px12" H 5000 3355 50  0000 C CNN
@@ -1039,7 +1039,7 @@ Connection ~ 4450 3100
 Wire Wire Line
 	4300 3100 4450 3100
 $Comp
-L Personal-Symbols:FlipPixel Px7
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px7
 U 1 1 5F8376AC
 P 4150 3100
 F 0 "Px7" H 4150 3355 50  0000 C CNN
@@ -1057,7 +1057,7 @@ Connection ~ 3600 3100
 Wire Wire Line
 	3450 3100 3600 3100
 $Comp
-L Personal-Symbols:FlipPixel Px2
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px2
 U 1 1 5F8376B6
 P 3300 3100
 F 0 "Px2" H 3300 3355 50  0000 C CNN
@@ -1217,7 +1217,7 @@ Connection ~ 7000 3100
 Wire Wire Line
 	6850 3100 7000 3100
 $Comp
-L Personal-Symbols:FlipPixel Px22
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px22
 U 1 1 5F837713
 P 6700 3100
 F 0 "Px22" H 6700 3355 50  0000 C CNN
@@ -1309,7 +1309,7 @@ Connection ~ 6150 2100
 Wire Wire Line
 	6000 2100 6150 2100
 $Comp
-L Personal-Symbols:FlipPixel Px16
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px16
 U 1 1 5F837748
 P 5850 2100
 F 0 "Px16" H 5850 2355 50  0000 C CNN
@@ -1331,7 +1331,7 @@ Connection ~ 5300 2100
 Wire Wire Line
 	5150 2100 5300 2100
 $Comp
-L Personal-Symbols:FlipPixel Px11
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px11
 U 1 1 5F837755
 P 5000 2100
 F 0 "Px11" H 5000 2355 50  0000 C CNN
@@ -1349,7 +1349,7 @@ Connection ~ 4450 2100
 Wire Wire Line
 	4300 2100 4450 2100
 $Comp
-L Personal-Symbols:FlipPixel Px6
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px6
 U 1 1 5F83775F
 P 4150 2100
 F 0 "Px6" H 4150 2355 50  0000 C CNN
@@ -1367,7 +1367,7 @@ Connection ~ 3600 2100
 Wire Wire Line
 	3450 2100 3600 2100
 $Comp
-L Personal-Symbols:FlipPixel Px1
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px1
 U 1 1 5F837769
 P 3300 2100
 F 0 "Px1" H 3300 2355 50  0000 C CNN
@@ -1527,7 +1527,7 @@ Connection ~ 7000 2100
 Wire Wire Line
 	6850 2100 7000 2100
 $Comp
-L Personal-Symbols:FlipPixel Px21
+L flip-pixel-rescue:FlipPixel-Personal-Symbols Px21
 U 1 1 5F8377C6
 P 6700 2100
 F 0 "Px21" H 6700 2355 50  0000 C CNN
