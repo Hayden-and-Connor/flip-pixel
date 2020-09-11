@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 2 12
+Sheet 2 14
 Title "Flip Pixel Board"
 Date "2020-06-20"
 Rev ""
