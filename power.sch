@@ -163,7 +163,7 @@ AR Path="/5FD40438" Ref="JP?"  Part="1"
 AR Path="/5FD24FC6/5FD40438" Ref="JP1"  Part="1" 
 F 0 "JP1" H 4200 5850 50  0000 C CNN
 F 1 "BypassJumper" H 4600 5850 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-AB_Molex_47590-0001" H 4500 5750 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4500 5750 50  0001 C CNN
 F 3 "~" H 4500 5750 50  0001 C CNN
 	1    4500 5750
 	1    0    0    -1  
@@ -507,9 +507,9 @@ Wire Wire Line
 Text Label 1450 6450 3    50   ~ 0
 current
 Text Notes 750  7450 0    50   ~ 0
-Bypass Cap\nNear U3
+Bypass Cap\nNear U4
 Text Notes 1300 7450 0    50   ~ 0
-Filter Cap\nNear U3
+Filter Cap\nNear U4
 Wire Wire Line
 	900  6750 900  6250
 Text Label 900  6250 3    50   ~ 0
