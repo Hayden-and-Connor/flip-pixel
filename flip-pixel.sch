@@ -458,17 +458,6 @@ F 3 "" H 1500 1900 50  0001 C CNN
 	1    1500 1900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:USB_B_Micro J2
-U 1 1 5F8E38C9
-P 1100 4000
-F 0 "J2" H 800 4350 50  0000 C CNN
-F 1 "USB_B_Micro" H 1100 4350 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 1250 3950 50  0001 C CNN
-F 3 "~" H 1250 3950 50  0001 C CNN
-	1    1100 4000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1400 4000 1700 4000
 Wire Wire Line
@@ -569,9 +558,9 @@ Wire Wire Line
 	4750 4150 4750 6350
 Wire Bus Line
 	2950 4300 2950 6500
-Text Label 5500 3350 2    50   ~ 0
-MatrixControl1
 Text Label 5500 3450 2    50   ~ 0
+MatrixControl1
+Text Label 5500 3350 2    50   ~ 0
 MatrixControl2
 Text Label 5500 4000 2    50   ~ 0
 MatrixControl3
@@ -595,12 +584,6 @@ Wire Wire Line
 	5300 6350 5550 6350
 Wire Wire Line
 	4750 6350 5550 6350
-Wire Bus Line
-	2950 6500 10250 6500
-Wire Bus Line
-	10350 3400 10350 6400
-Wire Bus Line
-	4800 3450 4800 6400
 Text Label 9650 3400 0    50   ~ 0
 MatrixControl12
 Text Label 9650 3950 0    50   ~ 0
@@ -619,4 +602,25 @@ Text Label 9650 5900 0    50   ~ 0
 MatrixControl19
 Text Label 9650 6000 0    50   ~ 0
 MatrixControl20
+Wire Bus Line
+	2950 6500 10250 6500
+Wire Bus Line
+	10350 3400 10350 6400
+Wire Bus Line
+	4800 3450 4800 6400
+$Comp
+L Custom-Symbols:MicroUSB J2
+U 1 1 5FA3CEF5
+P 1100 4050
+F 0 "J2" H 950 4500 50  0000 C CNN
+F 1 "MicroUSB" H 1200 4500 50  0000 C CNN
+F 2 "Custom-Footprints:USB_Micro-B_Amphenol_10104110_Horizontal" H 1350 4450 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf" H 1350 4450 50  0001 C CNN
+F 4 "Digikey" H 900 4700 50  0001 C CNN "Vendor"
+F 5 "609-5379-1-ND" H 1150 4600 50  0001 C CNN "Vendor Part"
+F 6 "Amphenol ICC (FCI)" H 1150 4600 50  0001 C CNN "Manufacturer"
+F 7 "10118192-0002LF" H 1150 4600 50  0001 C CNN "Manufacture Part"
+	1    1100 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

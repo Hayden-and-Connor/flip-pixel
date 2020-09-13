@@ -510,10 +510,6 @@ Text Notes 750  7450 0    50   ~ 0
 Bypass Cap\nNear U4
 Text Notes 1300 7450 0    50   ~ 0
 Filter Cap\nNear U4
-Wire Wire Line
-	900  6750 900  6250
-Text Label 900  6250 3    50   ~ 0
-Power_Input
 Text HLabel 3650 5950 0    50   Input ~ 0
 5V
 $Comp
@@ -694,4 +690,10 @@ F 3 "~" H 5050 1250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5050 1250 5050 1350
+Text HLabel 900  6650 1    50   Input ~ 0
+5V
+Wire Wire Line
+	900  6650 900  6750
+Text HLabel 7950 4850 1    50   Output ~ 0
+10V
 $EndSCHEMATC

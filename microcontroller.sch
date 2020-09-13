@@ -263,7 +263,7 @@ Wire Wire Line
 Wire Wire Line
 	9000 1950 9850 1950
 Text Label 9050 2150 0    50   ~ 0
-MatrixControl1
+MatrixControl20
 Wire Wire Line
 	9000 2350 9850 2350
 Wire Wire Line
@@ -380,23 +380,23 @@ bootmode_select
 $Comp
 L power:GND #PWR0122
 U 1 1 5F994954
-P 5800 7150
-F 0 "#PWR0122" H 5800 6900 50  0001 C CNN
-F 1 "GND" H 5805 6977 50  0000 C CNN
-F 2 "" H 5800 7150 50  0001 C CNN
-F 3 "" H 5800 7150 50  0001 C CNN
-	1    5800 7150
+P 4450 7150
+F 0 "#PWR0122" H 4450 6900 50  0001 C CNN
+F 1 "GND" H 4455 6977 50  0000 C CNN
+F 2 "" H 4450 7150 50  0001 C CNN
+F 3 "" H 4450 7150 50  0001 C CNN
+	1    4450 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C10
 U 1 1 5F995234
-P 5800 7000
-F 0 "C10" H 5915 7046 50  0000 L CNN
-F 1 "1uF" H 5915 6955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5838 6850 50  0001 C CNN
-F 3 "~" H 5800 7000 50  0001 C CNN
-	1    5800 7000
+P 4450 7000
+F 0 "C10" H 4565 7046 50  0000 L CNN
+F 1 "1uF" H 4565 6955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4488 6850 50  0001 C CNN
+F 3 "~" H 4450 7000 50  0001 C CNN
+	1    4450 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -452,7 +452,7 @@ Wire Wire Line
 	5200 4500 5900 4500
 Text Label 5900 4200 2    50   ~ 0
 shift_clock
-Text Label 5900 4300 2    50   ~ 0
+Text Label 5900 4100 2    50   ~ 0
 storage_clock
 Text Label 5900 4400 2    50   ~ 0
 ~master_reset
@@ -475,12 +475,12 @@ Wire Wire Line
 Wire Wire Line
 	2050 3250 2050 3200
 NoConn ~ 5200 3900
-Text Label 5900 4100 2    50   ~ 0
+Text Label 5900 4300 2    50   ~ 0
 data
-Text Label 5800 6150 3    50   ~ 0
+Text Label 4450 6150 3    50   ~ 0
 bootmode_select
 Wire Wire Line
-	5800 6150 5800 6850
+	4450 6150 4450 6850
 Text Label 1100 6150 3    50   ~ 0
 usb_indicator
 Wire Wire Line
@@ -547,14 +547,14 @@ Wire Wire Line
 	5200 3600 5550 3600
 Wire Wire Line
 	5200 3700 5550 3700
-Text Label 4600 6550 0    50   ~ 0
+Text Label 6150 5250 0    50   ~ 0
 esp_tx
 Wire Wire Line
-	4600 6550 4900 6550
-Text Label 4600 6650 0    50   ~ 0
+	6150 5250 6450 5250
+Text Label 6150 5350 0    50   ~ 0
 esp_rx
 Wire Wire Line
-	4600 6650 4900 6650
+	6150 5350 6450 5350
 $Comp
 L power:+3.3V #PWR0126
 U 1 1 5FCEFBAC
@@ -630,27 +630,27 @@ Wire Wire Line
 $Comp
 L Device:R R26
 U 1 1 5FDC7C62
-P 1950 6900
-F 0 "R26" H 2020 6946 50  0000 L CNN
-F 1 "R" H 2020 6855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 1880 6900 50  0001 C CNN
-F 3 "~" H 1950 6900 50  0001 C CNN
-	1    1950 6900
+P 1950 6600
+F 0 "R26" H 2020 6646 50  0000 L CNN
+F 1 "R" H 2020 6555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1880 6600 50  0001 C CNN
+F 3 "~" H 1950 6600 50  0001 C CNN
+	1    1950 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom-Symbols:LED_Green D55
 U 1 1 5FDC7C6C
-P 1950 6600
-F 0 "D55" V 1950 6500 50  0000 R CNN
-F 1 "LED_Green" H 2150 6750 50  0001 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2300 7050 50  0001 C CNN
-F 3 "https://vcclite.com/wp-content/uploads/wpallimport/files/files/CMD1721Seriesver3.pdf" H 2100 6750 50  0001 C CNN
-F 4 "Digikey" H 1250 7350 50  0001 C CNN "Vendor"
-F 5 "L62405CT-ND" H 1400 7250 50  0001 C CNN "Vendor Part"
-F 6 "Visual Communications Company - VCC" H 1900 6950 50  0001 C CNN "Manufacturer"
-F 7 "CMD17-21VGC/TR8" H 1500 7150 50  0001 C CNN "Manufacturer Part"
-	1    1950 6600
+P 1950 6900
+F 0 "D55" V 1950 6800 50  0000 R CNN
+F 1 "LED_Green" H 2150 7050 50  0001 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2300 7350 50  0001 C CNN
+F 3 "https://vcclite.com/wp-content/uploads/wpallimport/files/files/CMD1721Seriesver3.pdf" H 2100 7050 50  0001 C CNN
+F 4 "Digikey" H 1250 7650 50  0001 C CNN "Vendor"
+F 5 "L62405CT-ND" H 1400 7550 50  0001 C CNN "Vendor Part"
+F 6 "Visual Communications Company - VCC" H 1900 7250 50  0001 C CNN "Manufacturer"
+F 7 "CMD17-21VGC/TR8" H 1500 7450 50  0001 C CNN "Manufacturer Part"
+	1    1950 6900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -658,27 +658,27 @@ Wire Wire Line
 $Comp
 L Device:R R27
 U 1 1 5FDCDD37
-P 2250 6900
-F 0 "R27" H 2320 6946 50  0000 L CNN
-F 1 "R" H 2320 6855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2180 6900 50  0001 C CNN
-F 3 "~" H 2250 6900 50  0001 C CNN
-	1    2250 6900
+P 2250 6600
+F 0 "R27" H 2320 6646 50  0000 L CNN
+F 1 "R" H 2320 6555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2180 6600 50  0001 C CNN
+F 3 "~" H 2250 6600 50  0001 C CNN
+	1    2250 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom-Symbols:LED_Green D56
 U 1 1 5FDCDD41
-P 2250 6600
-F 0 "D56" V 2250 6500 50  0000 R CNN
-F 1 "LED_Green" H 2450 6750 50  0001 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2600 7050 50  0001 C CNN
-F 3 "https://vcclite.com/wp-content/uploads/wpallimport/files/files/CMD1721Seriesver3.pdf" H 2400 6750 50  0001 C CNN
-F 4 "Digikey" H 1550 7350 50  0001 C CNN "Vendor"
-F 5 "L62405CT-ND" H 1700 7250 50  0001 C CNN "Vendor Part"
-F 6 "Visual Communications Company - VCC" H 2200 6950 50  0001 C CNN "Manufacturer"
-F 7 "CMD17-21VGC/TR8" H 1800 7150 50  0001 C CNN "Manufacturer Part"
-	1    2250 6600
+P 2250 6900
+F 0 "D56" V 2250 6800 50  0000 R CNN
+F 1 "LED_Green" H 2450 7050 50  0001 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2600 7350 50  0001 C CNN
+F 3 "https://vcclite.com/wp-content/uploads/wpallimport/files/files/CMD1721Seriesver3.pdf" H 2400 7050 50  0001 C CNN
+F 4 "Digikey" H 1550 7650 50  0001 C CNN "Vendor"
+F 5 "L62405CT-ND" H 1700 7550 50  0001 C CNN "Vendor Part"
+F 6 "Visual Communications Company - VCC" H 2200 7250 50  0001 C CNN "Manufacturer"
+F 7 "CMD17-21VGC/TR8" H 1800 7450 50  0001 C CNN "Manufacturer Part"
+	1    2250 6900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -686,27 +686,27 @@ Wire Wire Line
 $Comp
 L Device:R R28
 U 1 1 5FDD386B
-P 2550 6900
-F 0 "R28" H 2620 6946 50  0000 L CNN
-F 1 "R" H 2620 6855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2480 6900 50  0001 C CNN
-F 3 "~" H 2550 6900 50  0001 C CNN
-	1    2550 6900
+P 2550 6600
+F 0 "R28" H 2620 6646 50  0000 L CNN
+F 1 "R" H 2620 6555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2480 6600 50  0001 C CNN
+F 3 "~" H 2550 6600 50  0001 C CNN
+	1    2550 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom-Symbols:LED_Green D57
 U 1 1 5FDD3875
-P 2550 6600
-F 0 "D57" V 2550 6500 50  0000 R CNN
-F 1 "LED_Green" H 2750 6750 50  0001 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2900 7050 50  0001 C CNN
-F 3 "https://vcclite.com/wp-content/uploads/wpallimport/files/files/CMD1721Seriesver3.pdf" H 2700 6750 50  0001 C CNN
-F 4 "Digikey" H 1850 7350 50  0001 C CNN "Vendor"
-F 5 "L62405CT-ND" H 2000 7250 50  0001 C CNN "Vendor Part"
-F 6 "Visual Communications Company - VCC" H 2500 6950 50  0001 C CNN "Manufacturer"
-F 7 "CMD17-21VGC/TR8" H 2100 7150 50  0001 C CNN "Manufacturer Part"
-	1    2550 6600
+P 2550 6900
+F 0 "D57" V 2550 6800 50  0000 R CNN
+F 1 "LED_Green" H 2750 7050 50  0001 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2900 7350 50  0001 C CNN
+F 3 "https://vcclite.com/wp-content/uploads/wpallimport/files/files/CMD1721Seriesver3.pdf" H 2700 7050 50  0001 C CNN
+F 4 "Digikey" H 1850 7650 50  0001 C CNN "Vendor"
+F 5 "L62405CT-ND" H 2000 7550 50  0001 C CNN "Vendor Part"
+F 6 "Visual Communications Company - VCC" H 2500 7250 50  0001 C CNN "Manufacturer"
+F 7 "CMD17-21VGC/TR8" H 2100 7450 50  0001 C CNN "Manufacturer Part"
+	1    2550 6900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -728,27 +728,27 @@ IND_SR2
 $Comp
 L Device:R R29
 U 1 1 5FE02E11
-P 2850 6900
-F 0 "R29" H 2920 6946 50  0000 L CNN
-F 1 "R" H 2920 6855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2780 6900 50  0001 C CNN
-F 3 "~" H 2850 6900 50  0001 C CNN
-	1    2850 6900
+P 2850 6600
+F 0 "R29" H 2920 6646 50  0000 L CNN
+F 1 "R" H 2920 6555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2780 6600 50  0001 C CNN
+F 3 "~" H 2850 6600 50  0001 C CNN
+	1    2850 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom-Symbols:LED_Green D58
 U 1 1 5FE02E1B
-P 2850 6600
-F 0 "D58" V 2850 6500 50  0000 R CNN
-F 1 "LED_Green" H 3050 6750 50  0001 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3200 7050 50  0001 C CNN
-F 3 "https://vcclite.com/wp-content/uploads/wpallimport/files/files/CMD1721Seriesver3.pdf" H 3000 6750 50  0001 C CNN
-F 4 "Digikey" H 2150 7350 50  0001 C CNN "Vendor"
-F 5 "L62405CT-ND" H 2300 7250 50  0001 C CNN "Vendor Part"
-F 6 "Visual Communications Company - VCC" H 2800 6950 50  0001 C CNN "Manufacturer"
-F 7 "CMD17-21VGC/TR8" H 2400 7150 50  0001 C CNN "Manufacturer Part"
-	1    2850 6600
+P 2850 6900
+F 0 "D58" V 2850 6800 50  0000 R CNN
+F 1 "LED_Green" H 3050 7050 50  0001 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3200 7350 50  0001 C CNN
+F 3 "https://vcclite.com/wp-content/uploads/wpallimport/files/files/CMD1721Seriesver3.pdf" H 3000 7050 50  0001 C CNN
+F 4 "Digikey" H 2150 7650 50  0001 C CNN "Vendor"
+F 5 "L62405CT-ND" H 2300 7550 50  0001 C CNN "Vendor Part"
+F 6 "Visual Communications Company - VCC" H 2800 7250 50  0001 C CNN "Manufacturer"
+F 7 "CMD17-21VGC/TR8" H 2400 7450 50  0001 C CNN "Manufacturer Part"
+	1    2850 6900
 	0    -1   -1   0   
 $EndComp
 Text Label 2850 7500 1    50   ~ 0
@@ -772,23 +772,23 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5FCAAB83
-P 4900 6550
-F 0 "TP1" V 4900 6750 50  0000 L CNN
-F 1 "TestPoint" V 4750 6350 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5100 6550 50  0001 C CNN
-F 3 "~" H 5100 6550 50  0001 C CNN
-	1    4900 6550
+P 6450 5250
+F 0 "TP1" V 6450 5450 50  0000 L CNN
+F 1 "TestPoint" V 6300 5050 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6650 5250 50  0001 C CNN
+F 3 "~" H 6650 5250 50  0001 C CNN
+	1    6450 5250
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5FE9E683
-P 4900 6650
-F 0 "TP2" V 4900 6850 50  0000 L CNN
-F 1 "TestPoint" V 4750 6450 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5100 6650 50  0001 C CNN
-F 3 "~" H 5100 6650 50  0001 C CNN
-	1    4900 6650
+P 6450 5350
+F 0 "TP2" V 6450 5550 50  0000 L CNN
+F 1 "TestPoint" V 6300 5150 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6650 5350 50  0001 C CNN
+F 3 "~" H 6650 5350 50  0001 C CNN
+	1    6450 5350
 	0    1    1    0   
 $EndComp
 Text Label 5550 3300 2    50   ~ 0
@@ -895,121 +895,328 @@ Wire Wire Line
 Wire Wire Line
 	5200 3500 5550 3500
 Text Label 5550 3400 2    50   ~ 0
-sda
+SDA
 Text Label 5550 3500 2    50   ~ 0
-scl
-Text Label 4600 6900 0    50   ~ 0
+SCL
+Text Label 6150 5550 0    50   ~ 0
 SDA
 Wire Wire Line
-	4600 6900 4900 6900
-Text Label 4600 7000 0    50   ~ 0
+	6150 5550 6450 5550
+Text Label 6150 5650 0    50   ~ 0
 SCL
 Wire Wire Line
-	4600 7000 4900 7000
+	6150 5650 6450 5650
 $Comp
 L Connector:TestPoint TP3
 U 1 1 5FF86E26
-P 4900 6900
-F 0 "TP3" V 4900 7100 50  0000 L CNN
-F 1 "TestPoint" V 4750 6700 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5100 6900 50  0001 C CNN
-F 3 "~" H 5100 6900 50  0001 C CNN
-	1    4900 6900
+P 6450 5550
+F 0 "TP3" V 6450 5750 50  0000 L CNN
+F 1 "TestPoint" V 6300 5350 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6650 5550 50  0001 C CNN
+F 3 "~" H 6650 5550 50  0001 C CNN
+	1    6450 5550
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP4
 U 1 1 5FF86E2C
-P 4900 7000
-F 0 "TP4" V 4900 7200 50  0000 L CNN
-F 1 "TestPoint" V 4750 6800 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5100 7000 50  0001 C CNN
-F 3 "~" H 5100 7000 50  0001 C CNN
-	1    4900 7000
+P 6450 5650
+F 0 "TP4" V 6450 5850 50  0000 L CNN
+F 1 "TestPoint" V 6300 5450 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6650 5650 50  0001 C CNN
+F 3 "~" H 6650 5650 50  0001 C CNN
+	1    6450 5650
 	0    1    1    0   
 $EndComp
+Text Label 9050 2050 0    50   ~ 0
+MatrixControl19
+Text Label 9050 1850 0    50   ~ 0
+MatrixControl17
+Text Label 9050 1950 0    50   ~ 0
+MatrixControl18
+Text Label 9050 2350 0    50   ~ 0
+MatrixControl16
+Text Label 9050 2250 0    50   ~ 0
+MatrixControl15
+Text Label 9050 3250 0    50   ~ 0
+MatrixControl11
+Text Label 9050 3350 0    50   ~ 0
+MatrixControl12
+Text Label 9050 3450 0    50   ~ 0
+MatrixControl13
+Text Label 9050 3550 0    50   ~ 0
+MatrixControl14
+Text Label 9050 3650 0    50   ~ 0
+MatrixControl3
+Text Label 9050 3750 0    50   ~ 0
+MatrixControl1
+Text Label 9050 3850 0    50   ~ 0
+MatrixControl2
+Text Label 9050 4750 0    50   ~ 0
+MatrixControl6
+Text Label 9050 4850 0    50   ~ 0
+MatrixControl5
+Text Label 9050 4950 0    50   ~ 0
+MatrixControl4
+Text Label 9050 5050 0    50   ~ 0
+MatrixControl10
+Text Label 9050 5150 0    50   ~ 0
+MatrixControl9
+Text Label 9050 5250 0    50   ~ 0
+MatrixControl8
+Text Label 9050 5350 0    50   ~ 0
+MatrixControl7
 $Comp
-L power:+5V #PWR0130
-U 1 1 602BBF3B
+L Device:C C13
+U 1 1 5F8F0C85
+P 4900 7000
+F 0 "C13" H 5015 7046 50  0000 L CNN
+F 1 "0.1uF" H 5015 6955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4938 6850 50  0001 C CNN
+F 3 "~" H 4900 7000 50  0001 C CNN
+	1    4900 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 5F8F102B
+P 5350 7000
+F 0 "C14" H 5465 7046 50  0000 L CNN
+F 1 "0.1uF" H 5465 6955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5388 6850 50  0001 C CNN
+F 3 "~" H 5350 7000 50  0001 C CNN
+	1    5350 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 5F8F1368
+P 5800 7000
+F 0 "C15" H 5915 7046 50  0000 L CNN
+F 1 "0.1uF" H 5915 6955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5838 6850 50  0001 C CNN
+F 3 "~" H 5800 7000 50  0001 C CNN
+	1    5800 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0134
+U 1 1 5F8F1887
+P 4900 7150
+F 0 "#PWR0134" H 4900 6900 50  0001 C CNN
+F 1 "GND" H 4905 6977 50  0000 C CNN
+F 2 "" H 4900 7150 50  0001 C CNN
+F 3 "" H 4900 7150 50  0001 C CNN
+	1    4900 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0135
+U 1 1 5F8F1E2C
+P 5350 7150
+F 0 "#PWR0135" H 5350 6900 50  0001 C CNN
+F 1 "GND" H 5355 6977 50  0000 C CNN
+F 2 "" H 5350 7150 50  0001 C CNN
+F 3 "" H 5350 7150 50  0001 C CNN
+	1    5350 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0136
+U 1 1 5F8F20F8
+P 5800 7150
+F 0 "#PWR0136" H 5800 6900 50  0001 C CNN
+F 1 "GND" H 5805 6977 50  0000 C CNN
+F 2 "" H 5800 7150 50  0001 C CNN
+F 3 "" H 5800 7150 50  0001 C CNN
+	1    5800 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0137
+U 1 1 5F8F24B8
+P 4900 6850
+F 0 "#PWR0137" H 4900 6700 50  0001 C CNN
+F 1 "+3.3V" H 4915 7023 50  0000 C CNN
+F 2 "" H 4900 6850 50  0001 C CNN
+F 3 "" H 4900 6850 50  0001 C CNN
+	1    4900 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0138
+U 1 1 5F8F2A56
+P 5350 6850
+F 0 "#PWR0138" H 5350 6700 50  0001 C CNN
+F 1 "+3.3V" H 5365 7023 50  0000 C CNN
+F 2 "" H 5350 6850 50  0001 C CNN
+F 3 "" H 5350 6850 50  0001 C CNN
+	1    5350 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0139
+U 1 1 5F8F2D02
+P 5800 6850
+F 0 "#PWR0139" H 5800 6700 50  0001 C CNN
+F 1 "+3.3V" H 5815 7023 50  0000 C CNN
+F 2 "" H 5800 6850 50  0001 C CNN
+F 3 "" H 5800 6850 50  0001 C CNN
+	1    5800 6850
+	1    0    0    -1  
+$EndComp
+Text Notes 4750 7500 0    50   ~ 0
+Near U7
+Text Notes 5200 7500 0    50   ~ 0
+Near U8
+Text Notes 5650 7500 0    50   ~ 0
+Near U9
+$Comp
+L Device:C C12
+U 1 1 5F91F6D9
+P 4000 7000
+F 0 "C12" H 4115 7046 50  0000 L CNN
+F 1 "0.1uF" H 4115 6955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4038 6850 50  0001 C CNN
+F 3 "~" H 4000 7000 50  0001 C CNN
+	1    4000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0140
+U 1 1 5F91F6E3
+P 4000 7150
+F 0 "#PWR0140" H 4000 6900 50  0001 C CNN
+F 1 "GND" H 4005 6977 50  0000 C CNN
+F 2 "" H 4000 7150 50  0001 C CNN
+F 3 "" H 4000 7150 50  0001 C CNN
+	1    4000 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0141
+U 1 1 5F91F6ED
+P 4000 6850
+F 0 "#PWR0141" H 4000 6700 50  0001 C CNN
+F 1 "+3.3V" H 4015 7023 50  0000 C CNN
+F 2 "" H 4000 6850 50  0001 C CNN
+F 3 "" H 4000 6850 50  0001 C CNN
+	1    4000 6850
+	1    0    0    -1  
+$EndComp
+Text Notes 3850 7500 0    50   ~ 0
+Near U6
+$Comp
+L Device:C C11
+U 1 1 5F94C731
+P 3500 7000
+F 0 "C11" H 3615 7046 50  0000 L CNN
+F 1 "0.1uF" H 3615 6955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3538 6850 50  0001 C CNN
+F 3 "~" H 3500 7000 50  0001 C CNN
+	1    3500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0142
+U 1 1 5F94C73B
+P 3500 7150
+F 0 "#PWR0142" H 3500 6900 50  0001 C CNN
+F 1 "GND" H 3505 6977 50  0000 C CNN
+F 2 "" H 3500 7150 50  0001 C CNN
+F 3 "" H 3500 7150 50  0001 C CNN
+	1    3500 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0143
+U 1 1 5F94C745
+P 3500 6850
+F 0 "#PWR0143" H 3500 6700 50  0001 C CNN
+F 1 "+3.3V" H 3515 7023 50  0000 C CNN
+F 2 "" H 3500 6850 50  0001 C CNN
+F 3 "" H 3500 6850 50  0001 C CNN
+	1    3500 6850
+	1    0    0    -1  
+$EndComp
+Text Notes 3350 7500 0    50   ~ 0
+Near U5
+Text Notes 4300 7500 0    50   ~ 0
+Near U6
+$Comp
+L power:+3.3V #PWR0130
+U 1 1 5FA5E0D6
 P 1950 6450
 F 0 "#PWR0130" H 1950 6300 50  0001 C CNN
-F 1 "+5V" H 1965 6623 50  0000 C CNN
+F 1 "+3.3V" H 1965 6623 50  0000 C CNN
 F 2 "" H 1950 6450 50  0001 C CNN
 F 3 "" H 1950 6450 50  0001 C CNN
 	1    1950 6450
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0131
-U 1 1 602BD06C
+L power:+3.3V #PWR0131
+U 1 1 5FA5EBA2
 P 2250 6450
 F 0 "#PWR0131" H 2250 6300 50  0001 C CNN
-F 1 "+5V" H 2265 6623 50  0000 C CNN
+F 1 "+3.3V" H 2265 6623 50  0000 C CNN
 F 2 "" H 2250 6450 50  0001 C CNN
 F 3 "" H 2250 6450 50  0001 C CNN
 	1    2250 6450
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0132
-U 1 1 602BD52F
+L power:+3.3V #PWR0132
+U 1 1 5FA5ED54
 P 2550 6450
 F 0 "#PWR0132" H 2550 6300 50  0001 C CNN
-F 1 "+5V" H 2565 6623 50  0000 C CNN
+F 1 "+3.3V" H 2565 6623 50  0000 C CNN
 F 2 "" H 2550 6450 50  0001 C CNN
 F 3 "" H 2550 6450 50  0001 C CNN
 	1    2550 6450
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0133
-U 1 1 602BD7B0
+L power:+3.3V #PWR0133
+U 1 1 5FA5F18B
 P 2850 6450
 F 0 "#PWR0133" H 2850 6300 50  0001 C CNN
-F 1 "+5V" H 2865 6623 50  0000 C CNN
+F 1 "+3.3V" H 2865 6623 50  0000 C CNN
 F 2 "" H 2850 6450 50  0001 C CNN
 F 3 "" H 2850 6450 50  0001 C CNN
 	1    2850 6450
 	1    0    0    -1  
 $EndComp
-Text Label 9050 2050 0    50   ~ 0
-MatrixControl2
-Text Label 9050 1850 0    50   ~ 0
-MatrixControl3
-Text Label 9050 1950 0    50   ~ 0
-MatrixControl4
-Text Label 9050 2350 0    50   ~ 0
-MatrixControl5
-Text Label 9050 2250 0    50   ~ 0
-MatrixControl6
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5FA74D37
+P 6450 5850
+F 0 "TP5" V 6450 6050 50  0000 L CNN
+F 1 "TestPoint" V 6300 5650 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6650 5850 50  0001 C CNN
+F 3 "~" H 6650 5850 50  0001 C CNN
+	1    6450 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5FA7505D
+P 6450 5950
+F 0 "TP6" V 6450 6150 50  0000 L CNN
+F 1 "TestPoint" V 6300 5750 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6650 5950 50  0001 C CNN
+F 3 "~" H 6650 5950 50  0001 C CNN
+	1    6450 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 5950 6150 5950
+Wire Wire Line
+	6450 5850 6150 5850
+Text Label 6150 5850 0    50   ~ 0
+power
+Text Label 6150 5950 0    50   ~ 0
+gnd
 Wire Bus Line
 	9950 1950 9950 5750
-Text Label 9050 3250 0    50   ~ 0
-MatrixControl13
-Text Label 9050 3350 0    50   ~ 0
-MatrixControl7
-Text Label 9050 3450 0    50   ~ 0
-MatrixControl8
-Text Label 9050 3550 0    50   ~ 0
-MatrixControl9
-Text Label 9050 3650 0    50   ~ 0
-MatrixControl10
-Text Label 9050 3750 0    50   ~ 0
-MatrixControl11
-Text Label 9050 3850 0    50   ~ 0
-MatrixControl12
-Text Label 9050 4750 0    50   ~ 0
-MatrixControl20
-Text Label 9050 4850 0    50   ~ 0
-MatrixControl14
-Text Label 9050 4950 0    50   ~ 0
-MatrixControl15
-Text Label 9050 5050 0    50   ~ 0
-MatrixControl16
-Text Label 9050 5150 0    50   ~ 0
-MatrixControl17
-Text Label 9050 5250 0    50   ~ 0
-MatrixControl18
-Text Label 9050 5350 0    50   ~ 0
-MatrixControl19
 $EndSCHEMATC
