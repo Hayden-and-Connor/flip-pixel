@@ -5,8 +5,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 14
 Title "Flip Pixel Board"
-Date "2020-06-26"
-Rev ""
+Date "2020-09-14"
+Rev "0.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -542,7 +542,7 @@ U 5F59EFA2
 F0 "Controller" 50
 F1 "microcontroller.sch" 50
 F2 "matrix_enable" O R 2800 4050 50 
-F3 "current" I R 2800 4150 50 
+F3 "matrix_current" I R 2800 4150 50 
 F4 "usb_D+" B L 1700 4000 50 
 F5 "usb_D-" B L 1700 4100 50 
 $EndSheet
@@ -581,8 +581,6 @@ MatrixControl10
 Text Label 9650 3300 0    50   ~ 0
 MatrixControl11
 Wire Wire Line
-	5300 6350 5550 6350
-Wire Wire Line
 	4750 6350 5550 6350
 Text Label 9650 3400 0    50   ~ 0
 MatrixControl12
@@ -602,12 +600,6 @@ Text Label 9650 5900 0    50   ~ 0
 MatrixControl19
 Text Label 9650 6000 0    50   ~ 0
 MatrixControl20
-Wire Bus Line
-	2950 6500 10250 6500
-Wire Bus Line
-	10350 3400 10350 6400
-Wire Bus Line
-	4800 3450 4800 6400
 $Comp
 L Custom-Symbols:MicroUSB J2
 U 1 1 5FA3CEF5
@@ -621,6 +613,56 @@ F 5 "609-5379-1-ND" H 1150 4600 50  0001 C CNN "Vendor Part"
 F 6 "Amphenol ICC (FCI)" H 1150 4600 50  0001 C CNN "Manufacturer"
 F 7 "10118192-0002LF" H 1150 4600 50  0001 C CNN "Manufacture Part"
 	1    1100 4050
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	2950 6500 10250 6500
+Wire Bus Line
+	10350 3400 10350 6400
+Wire Bus Line
+	4800 3450 4800 6400
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F637D31
+P 9050 850
+F 0 "H3" H 9150 896 50  0000 L CNN
+F 1 "MountingHole" H 9150 805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 9050 850 50  0001 C CNN
+F 3 "~" H 9050 850 50  0001 C CNN
+	1    9050 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F638D2C
+P 8200 850
+F 0 "H1" H 8300 896 50  0000 L CNN
+F 1 "MountingHole" H 8300 805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 8200 850 50  0001 C CNN
+F 3 "~" H 8200 850 50  0001 C CNN
+	1    8200 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F638FF0
+P 8200 1150
+F 0 "H2" H 8300 1196 50  0000 L CNN
+F 1 "MountingHole" H 8300 1105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 8200 1150 50  0001 C CNN
+F 3 "~" H 8200 1150 50  0001 C CNN
+	1    8200 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F639222
+P 9050 1150
+F 0 "H4" H 9150 1196 50  0000 L CNN
+F 1 "MountingHole" H 9150 1105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 9050 1150 50  0001 C CNN
+F 3 "~" H 9050 1150 50  0001 C CNN
+	1    9050 1150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
